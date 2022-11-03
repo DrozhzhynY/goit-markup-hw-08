@@ -35,9 +35,14 @@
     &__list {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         flex-wrap: wrap;
         gap: 30px;
     }
+
+    // &__card {
+    //     flex-basis: calc((100% - 60px) / 3);
+    // }
 
     &__card .card__link:hover .card__overlay,
     &__card .card__link:focus .card__overlay {
